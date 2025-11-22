@@ -708,4 +708,5 @@ Connections[0] = Run.RenderStepped:Connect(handleCombat)
 Connections[1] = Run.Heartbeat:Connect(handleAutoEquip)
 Connections[2] = player.CharacterAdded:Connect(initializePlayer)
 
+
 return Connections
